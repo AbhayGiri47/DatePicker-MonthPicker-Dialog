@@ -113,6 +113,13 @@ Month Picker Dialog
 
 Date Parser 
 
+
+ const val COMMON_DATE_FORMAT = "dd MMM yyyy"
+    const val SYSTEM_DATE_FORMAT = "MM/dd/yyyy"
+    const val MEETING_API_DATE_FORMAT = "dd-MM-yyyy"
+    const val DATE_FORMAT_YEAR = "yyyy-MM-dd"
+    const val FILE_DATE = "ddMMyyyyHHmmss"
+
 class DateParser {
 
     companion object{
